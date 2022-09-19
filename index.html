@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>multi sliders</title>
     <!-- My Css File-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.scss">
 
     <!-- Render-->
     <link rel="stylesheet" href="css/normalize.css">
@@ -14,6 +15,7 @@
     <!--Grid system-->
 
     <link rel="stylesheet" href="css/grid.css">
+    
 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--  <link rel="icon" href="img3.png" type=""> no imag here -->
@@ -27,14 +29,14 @@
 
 
 
-<div class="container main-contaner">
+<div class="container main-container">
    <!--Start Prodact-->
 <div class="product">
         <aside class="sidebar left-sidebar">
                 <!--Start frist box search-->
                 <div class="box serc">
                         <form>
-                                <input class="inip" type="search" placeholder="Search">
+                                <input class="inip" type="text" placeholder="Search">
                                 <input class="btn" type="submit" value="Search">
                         </form>
                 </div>
@@ -445,13 +447,17 @@
 
 <aside class="sidebar right-sidebar">
         <div class="box sign-in">
-                <h2 class="side-head h2-heading">sign-in</h2>
+                <h2 class="">sign-in</h2>
                 <hr>
                 <form class="sign">
-                        <input class="uss" type="text" placeholder="Username">
-                        <input class="uss" type="password" placeholder="password">
+                        <div class="userPassword">
+                                <input class="uss" type="text" placeholder="Username">
+                                <input class="uss" type="password" placeholder="password">
+                        </div>
+                       <div class="rememberME">
                         <input class="checkbox" type="checkbox" checked id="checked">
                         <label class="check-box">Remember Me</label>
+                       </div>
                         <input class="btn-sign" type="submit" value="Sign In">
                         <a class="lost-pas">
                         <i class="fa fa-question-circle quest-mark"></i>
@@ -551,15 +557,7 @@
       
     
 <!-- End content -->
-
-
-
-<!--Stat the right sidebar-->
-
-
-<!--End the right sidebar-->
- 
-<script src="js/plugins.js"></script>
+<script src="./js/script.js"></script>
   
 
 </body>
