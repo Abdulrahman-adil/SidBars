@@ -483,7 +483,7 @@ hr {
 }
 
 .main-container .product .hed-img {
-  background-image: url(/images/com.jpg);
+  background-image: url(../images/com.jpg);
   height: 300px;
   position: relative;
   background-size: cover;
